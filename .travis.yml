@@ -16,6 +16,6 @@ script:
 notifications:
   slack:
     rooms:
-      - fink-redirection-app:${SLACK_API_TOKEN}#travis_ci
+      - JulienPeloton:${SLACK_API_TOKEN}#travis_ci
     on_success: always # default: always
     on_failure: always # default: always
