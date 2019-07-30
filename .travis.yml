@@ -16,6 +16,6 @@ script:
 notifications:
   slack:
     rooms:
-      - fink-broker:${SLACK_API_TOKEN}#travis_ci
+      secure: FSCyKpF7gWCZAElEZfV3WfAMy6W+IkhG9N6qaPQ0InxfQVCsrQ3bpkYoJVZaeraa65Tmsv6T//LPR24OyNRfvDJ4ynxkOzPVLAUJrofF45imhTT7wWh/v/+8Dl2GKpHSonhkA500C3hIBgLJc84Hwt6ocW4JYZZL36gqBCQrLR+E6dtpbLQd6gQZFF+GXqp2GUdjwtEcxcuoPdyClSdkH6B1FJslpyUZZHcSnMaW6LtXU9h/hlkhaGdTEL+LOnhKv9Z20lBn+kcqZXkWje7rO1Ten8dbdZE5bHu2LaEOFSinvvssYgeu6/rzbij4Qf6JcfrL6guXzs8YeELSgOd1Ic1Je19rS4c8Yc2dUUF+QfPVnSWLz8PmdYTrisTiZVzdNYV2nOPlc/gHrnVjpUGIFN/RwfpsjgefWsyoGgKarS0+VR4WL0EDLI65VGF6xk0doocvP5QLZ/Dv9PC6MLiXYMhIAmgrvm98CRyOTVkPlwPDcUfMRl5z1m6eqMKYBaoLiIcjrh7rDLULUMqFxymt0gSaxXgqDCfwWFpB7dmVXExlxeViznqK9ZhHHEyVsCpw6eGhctVA+kLSTwg8InmiOYHpgQwJFKi91TG3MBogJNXGm57qvZPMrvBkALIf06LRPyAcGpBS/4a1ccdtq/HgOABLXkaQCaoxlO9OE0YnP+8=
     on_success: always # default: always
     on_failure: always # default: always
