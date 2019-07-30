@@ -19,7 +19,7 @@ class Bot():
         """
         response = self.client.chat_postMessage(
             channel=channel_id, text=message, as_user="false",
-            username="travisci", icon_emoji=":travis_ci:")
+            username="travisci", icon_emoji=":travisci:")
 
         return response
 
