@@ -12,7 +12,6 @@ class Bot():
         """
         """
         self.client.auth_test()
-        print(self.client.channels_list()['channels'])
 
     def send_message(self, channel_id, message):
         """
