@@ -1,0 +1,14 @@
+language: python
+
+dist: xenial
+
+python:
+  - "3.7"
+
+install:
+  # Python deps
+  - pip install --upgrade pip setuptools wheel
+  - pip install slackclient
+
+script:
+  - python slack-test/bot.py
