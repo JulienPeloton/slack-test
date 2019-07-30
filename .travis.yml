@@ -16,6 +16,6 @@ script:
 notifications:
   slack:
     rooms:
-      - astrolabsoftware/fink-broker:${SLACK_API_TOKEN}#travis_ci
+      - 'astrolabsoftware/fink-broker:${SLACK_API_TOKEN}#travis_ci'
     on_success: always # default: always
     on_failure: always # default: always
